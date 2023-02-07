@@ -1,8 +1,7 @@
+function type <T> (arg: T) {
+    return arg;
+}
 
 
-console.log('Hola Mundo!');
-
-/*
-    ===== Código de TypeScript =====
-*/
-
+let iamString = type("hola");
+let iamNumber = type("hola");
